@@ -1,11 +1,13 @@
 const controller = {}
 
+const title = 'index desde el servidor con variables'
+
 
 
 controller.index = (req, res) => {
 
 
-    res.render('index')
+    res.render('index', { title })
 
 
 
